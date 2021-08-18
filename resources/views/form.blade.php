@@ -30,7 +30,6 @@
 
                 <form action="{{ route('form') }}" method="Post">
                     @csrf
-
                     <div>
                         <input type="text" name="first_name"
                         class="form-control @error('first_name') border-danger @enderror"
