@@ -53,8 +53,7 @@
             <div class="mb-5">
                 <h3 class="mb-2"><strong>Projects</strong></h3>
                 <h4>Links to Projects:</h4>
-                <h5><a href=""></a></h5>
-                <h5><a href=""></a></h5>
+                <h5><a href="https://github.com/Eno-obongEnoh25" target="_blank">Github</a></h5>
             </div>
 
             <div class="text-center"><h3>Please fill in the form below to contact me</h3></div>
@@ -63,12 +62,7 @@
 
     <div class="text-center">
 <div class="row">
-    @if (session('success'))
-    <div style="width: 20rem; margin: 0 auto"
-        class="text-center p-3 mb-2 bg-success text-white">
-        {{ session('success') }}
-    </div>
-@endif
+
 
     <div class="col-md-6">
         <div class="form text-center" style="width: 20rem">
@@ -116,7 +110,13 @@
     </div>
 
     <div class="col-md-6">
-        @foreach ($users as $user)
+        @if (session('success'))
+    <div style="width: 20rem; margin: 0 auto"
+        class="text-center p-3 mb-2 bg-success text-white">
+        {{ session('success') }}
+    </div>
+@endif
+        {{-- @foreach ($users as $user)
             <h4>{{ $user->name }}</h4>
             <h4>{{ $user->email }}</h4>
             <h4 class="mb-5">{{ $user->phone_number }}</h4><br><br>
@@ -124,7 +124,7 @@
             <div class="d-flex justify-content-end">
                 {{ $users->links() }}
             </div>
-            @endforeach
+            @endforeach --}}
         </div>
 </div>
 

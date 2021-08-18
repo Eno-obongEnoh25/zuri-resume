@@ -23,13 +23,13 @@ class UserController extends Controller
         ]);
 
         User::create([
-            'name' => $request->first_name,
+            'name' => $request->name,
             'email' => $request->email,
             'phone_number' => $request->phone_number,
         ]);
 
         return back()->with('success',
-        'Thank you for getting in touch with me. I wil contact you with the following details');
+        'Thank you for getting in touch with me. I will make contact with the email provided.');
     }
 
 
