@@ -17,15 +17,9 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-            'first_name',
-            'last_name',
+            'name',
             'email',
             'phone_number',
-            'stack',
-            'slack_email',
-            'link_to_github_repo',
-            'link_to_heroku',
-            'years_of_experience'
     ];
 
     /**

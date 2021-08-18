@@ -13,21 +13,7 @@
   </head>
   <body>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href=""><img src="{{ asset('zuri logo.png') }}"
-                    style="height: 3rem; width: 3rem" alt="zuri logo">
-                     <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li><h3>Eno-obong Etuk Enoh</h3></li>
-            </ul>
-            </div>
-        </nav>
 
           @yield('content')
 
