@@ -10,7 +10,7 @@ class UserController extends Controller
 {
     public function show()
     {
-        $users = User::get();
+        $users = User::paginate(1);
         return view('form', ['users' => $users]);
     }
 
