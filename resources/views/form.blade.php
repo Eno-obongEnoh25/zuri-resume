@@ -188,18 +188,22 @@
 
                     <div>
                         <h5>
-                            <form action="{{route('form.destroy', $user)}}" method="post">
+                            <form action="{{ '/form/'.$user->id }}" method="post">
                                 @csrf
                                 @method('DELETE')
                                Delete Your Details <button class="border-0"><i class="fa fa-trash text-danger" aria-hidden="true"></i></button>
                             </form>
                         </h5>
-                    </div>
-                @endforeach
+                    </div><br><br>
+                    @endforeach
+                    {{ $users->links() }}
+
+
 
             </div>
         </div>
     </div>
+
 </div>
 
 @endsection
