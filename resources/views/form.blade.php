@@ -28,7 +28,7 @@
 
                 <h3>Personal Information</h3>
 
-                <form action="{{ route('form') }}" method="Post">
+                <form action="/form" method="Post">
                     @csrf
                     <div>
                         <input type="text" name="first_name"
