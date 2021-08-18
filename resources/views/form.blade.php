@@ -5,9 +5,9 @@
 <div class="text-center">
     <h2 class="mb-5">Powered By:</h2>
     <div class="row">
-        <div class="col-md-4"><a href="www.internship.zuri.team"><img src="{{ asset('zuri logo.png') }}" class="img-fluid" alt=""></a> </div>
-        <div class="col-md-4"><a href="www.hng.tech"><img src="{{ asset('hng logo.png') }}" class="img-fluid" alt=""> </a></div>
-        <div class="col-md-4"><a href="www.ingressive.org"><img src="{{ asset('I4G-Logo-Color-Cropped.png') }}" class="img-fluid" alt=""></a> </div>
+        <div class="col-md-4"><a href="https://internship.zuri.team/" target="_blank"><img src="{{ asset('zuri logo.png') }}" class="img-fluid" alt=""></a> </div>
+        <div class="col-md-4"><a href="https://hng.tech/" target="_blank"><img src="{{ asset('hng logo.png') }}" class="img-fluid" alt=""> </a></div>
+        <div class="col-md-4"><a href="https://ingressive.org/" target="_blank"><img src="{{ asset('I4G-Logo-Color-Cropped.png') }}" class="img-fluid" alt=""></a> </div>
     </div>
 
 </div>
