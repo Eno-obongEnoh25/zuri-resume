@@ -14,7 +14,7 @@
 
 </div>
 
-<div class="container jumbotron mt-3">
+<div class="container jumbotron mt-3 main">
 
         <div class="text-center">
             <h3>Eno-obong Etuk Enoh</h3>
