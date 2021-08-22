@@ -46,6 +46,15 @@
             </div>
 
             <div class="mb-5">
+                <h3 class="mb-2"><strong>Skills</strong></h3>
+                <h4>HTML/CSS<h4>
+                <h4>[PHP => LARAVEL]</h4>
+                <h4>IBM Cloud</h4>
+                <h4>Public Speaking</h4>
+                <h4>Creative writing</h4>
+            </div>
+
+            <div class="mb-5">
                 <h3 class="mb-2"><strong>Work Experience</strong></h3>
                 <h4>Tutor: Start Innovation Hub, 263 Oron Road Uyo</h4>
             </div>
