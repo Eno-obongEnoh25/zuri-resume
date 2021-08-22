@@ -22,10 +22,7 @@
         </div>
 
             <div class="mb-5">
-                <h4 class="d-flex justify-content-between mb-2"><strong>Date of Birth: </strong>18th May 1989 </h4>
-                <h4 class="d-flex justify-content-between mb-2"><strong>Address: </strong>No 23 Ben Iyai Street Uyo </h4>
                 <h4 class="d-flex justify-content-between mb-2"><strong>Email: </strong>enoobongenoh25@gmail.com </h4>
-                <h4 class="d-flex justify-content-between mb-2"><strong>State Of Origin: </strong>Akwa Ibom </h4>
                 <h4 class="d-flex justify-content-between mb-2"><strong>Gender: </strong>Male </h4>
                 <h4 class="d-flex justify-content-between"><strong>Mobile Number: </strong>08062242300 </h4>
             </div>
