@@ -60,8 +60,8 @@
                 <h3 class="mb-2"><strong>Projects</strong></h3>
                 <h4>Links to Projects:</h4>
                 <h5><a href="https://github.com/Eno-obongEnoh25" target="_blank">Github</a></h5>
-                <h5><a href="https://blog-enoh.herokuapp.com/blog" target="_blank" class="text-white">Blog app</a></h5>
-                <h5><a href="https://e-commerce-enoh.herokuapp.com/welcome" target="_blank" class="text-white">E-commerce app(under construction)</a></h5>
+                {{-- <h5><a href="https://blog-enoh.herokuapp.com/blog" target="_blank" class="text-white">Blog app</a></h5>
+                <h5><a href="https://e-commerce-enoh.herokuapp.com/welcome" target="_blank" class="text-white">E-commerce app(under construction)</a></h5> --}}
             </div>
 
             <div class="text-center"><h3>Please fill in the form below to contact me</h3></div>
